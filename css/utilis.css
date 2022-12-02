@@ -1,0 +1,24 @@
+/*=============================================
+=            flex properties            =
+=============================================*/
+.flexAllAlignCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.displayFlex {
+	display: flex;
+}
+.alignItemCenter {
+	align-items: center;
+}
+.justifyContentCenter {
+	justify-content: center;
+}
+/*=====  End of flex properties  ======*/
+
+/*=============================================
+=            common properties            =
+=============================================*/
+
+/*=====  End of common properties  ======*/

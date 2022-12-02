@@ -1,0 +1,25 @@
+@media screen and (max-width: 1250px) {
+	.search {
+		margin: 0px 0px;
+	}
+	#navbar {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.ulNav {
+		flex-direction: row;
+	}
+	#navbar li {
+		padding: 0px 19px;
+	}
+	.mainFP img {
+		width: 215px;
+		padding: 7px 0px;
+	}
+	.cardItems img:hover {
+		width: 218px;
+	}
+	.seperatorFlex {
+		flex-direction: column;
+	}
+}

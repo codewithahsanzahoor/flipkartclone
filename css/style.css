@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*=============================================
+=            imports outside             =
+=============================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+
+/*=====  End of imports outside   ======*/
+
+/*=============================================
+=            variables for css            =
+=============================================*/
+
+:root {
+	--main-bg-color: rgb(12, 75, 177);
+}
+
+/*=====  End of variables for css  ======*/
+
+/*=============================================
+=            navbar            =
+=============================================*/
+
+#navbar {
+	/* border: 1px solid red; */
+	min-height: 5vh;
+	background: var(--main-bg-color);
+	align-items: center;
+}
+
+#navbar li > a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Noto Sans Mono', monospace;
+	font-size: 17px;
+}
+#navbar li > a:hover {
+	font-weight: bold;
+	color: rgb(77, 171, 224);
+}
+
+#navbar li {
+	list-style: none;
+	padding: 12px 28px;
+}
+
+#navbar .logo img {
+	height: 19px;
+	padding-left: 7px;
+}
+
+/*----------  searchBlock  ----------*/
+
+.search {
+	margin: 0px 0px 0px 576px;
+}
+
+.search input {
+	width: 191px;
+	border-radius: 7px;
+	font-family: 'Noto Sans Mono', monospace;
+	height: 25px;
+	padding-left: 8px;
+	box-sizing: border-box;
+}
+
+.btn {
+	margin: 0px 0px 0px 2px;
+	background-color: var(--main-bg-color);
+	border: 2px solid white;
+	border-radius: 7px;
+	color: white;
+	width: 70px;
+	font-family: 'Noto Sans Mono', monospace;
+	cursor: pointer;
+}
+.btn:hover {
+	color: rgb(77, 171, 224);
+}
+
+/*=====  End of navbar  ======*/
+
+/*=============================================
+=            mainSection            =
+=============================================*/
+
+.mainFP {
+	min-height: calc(211vh - (5vh + 5vh));
+	/* background-color: aquamarine; */
+}
+
+.mainFP img {
+	width: 572px;
+	display: block;
+	margin: 0 auto;
+	padding: 12px 0px;
+}
+
+.cardBoxContainer {
+	display: flex;
+	height: 209px;
+	width: 1306.9px;
+	/* border: 1px solid black; */
+	margin: 33px auto;
+	align-items: center;
+}
+
+.cardItems {
+	/* border: 2px solid red; */
+	margin: 0px 4px;
+	height: 192px;
+	width: 316px;
+}
+
+.cardItems img {
+	height: 151px;
+	width: 290px;
+}
+
+.cardItems img:hover {
+	width: 292px;
+}
+
+.text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Noto Sans Mono', monospace;
+}
+
+.para {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Noto Sans Mono', monospace;
+}
+
+.mainHeadingStock {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 19px 0px;
+	font-family: 'Noto Sans Mono', monospace;
+}
+/*=====  End of mainSection  ======*/
+
+/*=============================================
+=            footer            =
+=============================================*/
+
+footer {
+	background-color: var(--main-bg-color);
+	color: white;
+	height: 5vh;
+	font-family: 'Noto Sans Mono', monospace;
+	min-height: 12vh;
+}
+
+/*=====  End of footer  ======*/
